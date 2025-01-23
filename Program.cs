@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World, and Github!");
-
-
+            Console.WriteLine("Please enter a low number:");
+            int low_number = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(low_number);
 
 
 
