@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter a low number:");
+            Console.WriteLine("Please enter a low number: ");
             int low_number = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(low_number);
 
