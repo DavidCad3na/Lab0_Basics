@@ -54,7 +54,7 @@ namespace lab0_Basics
             }
 
             //Inverse and Print
-            string filePath = "C:\\Users\\caden\\code\\oob2\\C#\\class\\lab0_Basics\\numbers.txt";
+            string filePath = "numbers.txt";
             int[] logNumInverse = new int[difference + 1];
             int indexInverse = 0;
             string inverse = "";
@@ -77,7 +77,7 @@ namespace lab0_Basics
                 inverse = Convert.ToString(invertNum);
                 File.AppendAllText(filePath, inverse + " ");
             }
-            Console.Write("\n\nFile Written to numbers.txt in program folder.\n");
+            Console.Write("\n\nFile Written to numbers.txt in bin\\debug\\net8.0 folder.\n");
         }
     }
 }
