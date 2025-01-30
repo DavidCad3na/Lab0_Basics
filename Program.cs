@@ -32,7 +32,7 @@ namespace lab0_Basics
                 Console.Write("Please enter a higher number than your low value: ");
                 highNumber = Convert.ToInt32(Console.ReadLine());
             }
-
+             
             //Get Differance
             int difference = highNumber - lowNumber;
             Console.WriteLine($"The differance between the numbers is {difference}");
